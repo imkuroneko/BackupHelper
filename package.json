@@ -1,0 +1,24 @@
+{
+  "name": "backuphelper",
+  "version": "1.0.0",
+  "description": "Tool based on NodeJS and crons for create backups",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/imkuroneko/BackupHelper.git"
+  },
+  "author": "KuroNeko",
+  "license": "GPL-3.0",
+  "bugs": {
+    "url": "https://github.com/imkuroneko/BackupHelper/issues"
+  },
+  "homepage": "https://github.com/imkuroneko/BackupHelper#readme",
+  "dependencies": {
+    "axios": "^0.27.2",
+    "cron": "^2.1.0",
+    "dropbox": "^10.32.0"
+  }
+}
